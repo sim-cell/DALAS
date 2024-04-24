@@ -1,12 +1,10 @@
 from urllib import request
 import requests
 from bs4 import BeautifulSoup
-import re
-import json
+
 import bs4
-import lxml
 import pandas as pd
-import urllib
+
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -94,18 +92,15 @@ def scrape_details(links):
     return names, prices, material_lists
 
 def run_selenium(unique_links):
-
-    # Initialize a WebDriver (assuming you have chromedriver installed)
     driver = webdriver.Chrome()
     informations = []
-    # Navigate to the webpage
-    #url = 'https://www2.hm.com/fr_fr/productpage.1149098003.html'
+
     for url in unique_links:
         driver.get(url)
         try:
             materials_button =  WebDriverWait(driver, 4).until(EC.element_to_be_clickable((By.ID,"toggle-materialsAndSuppliersAccordion")))
             materials_button.click()
-            #popup_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(text(), 'Informations sur le fournisseur')]")))
+            
             popup_button = WebDriverWait(driver, 4).until(EC.element_to_be_clickable((By.CLASS_NAME, "bbcd86")))
             popup_button.click()
 
@@ -116,7 +111,7 @@ def run_selenium(unique_links):
             informations.append(popup_contents)
             continue
         informations.append(popup_contents)
-    # Close the browser window
+
     driver.quit()
     return informations
 
@@ -133,7 +128,7 @@ informations = run_selenium(unique_links)
 fixed_material_lists = [[s.encode('utf-8').decode('unicode_escape') for s in sublist] for sublist in material_lists]
 
 print(fixed_material_lists)
-import pandas as pd
+
 print(len(names), len(prices), len(fixed_material_lists), len(unique_links))
 data = {
     'Product Type': ['Sweatshirt']*len(names),
@@ -144,8 +139,8 @@ data = {
     'Informations': informations[:len(names)]
 }
 
-# Create the dataframe
+
 df = pd.DataFrame(data)
 
-# Print the dataframe
+
 df.to_csv('hmSWEATSHIRTS.csv', index=False)
