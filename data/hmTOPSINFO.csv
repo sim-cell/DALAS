@@ -1,0 +1,1251 @@
+,informations
+0,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+1,"['Teinture\nTurquie', 'Fabrication\nChine\nTurquie']"
+2,['Pays de fabrication\nCambodge\nTurquie']
+3,['Pays de fabrication\nBirmanie']
+4,['Pays de fabrication\nCambodge']
+5,"['Teinture\nChine', 'Fabrication\nBangladesh\nCambodge\nBirmanie\nChine\nTurquie']"
+6,['Pays de fabrication\nBirmanie']
+7,['Pays de fabrication\nBangladesh']
+8,['Pays de fabrication\nBirmanie']
+9,['Pays de fabrication\nTurquie']
+10,['Pays de fabrication\nBirmanie']
+11,['Pays de fabrication\nBangladesh']
+12,['Pays de fabrication\nBangladesh']
+13,['Pays de fabrication\nVietnam']
+14,['Pays de fabrication\nChine']
+15,['Pays de fabrication\nVietnam']
+16,['Pays de fabrication\nBirmanie']
+17,['Pays de fabrication\nBangladesh']
+18,['Pays de fabrication\nChine']
+19,['Pays de fabrication\nTurquie']
+20,['Pays de fabrication\nTurquie']
+21,['Pays de fabrication\nChine']
+22,['Pays de fabrication\nChine']
+23,['Pays de fabrication\nCambodge\nTurquie']
+24,['Pays de fabrication\nChine']
+25,['Pays de fabrication\nCambodge\nTurquie']
+26,['Pays de fabrication\nChine']
+27,['Pays de fabrication\nChine']
+28,['Pays de fabrication\nChine']
+29,['Pays de fabrication\nTurquie']
+30,"['Teinture\nInde', 'Fabrication\nInde']"
+31,['Pays de fabrication\nBirmanie']
+32,['Pays de fabrication\nBangladesh']
+33,[]
+34,['Pays de fabrication\nChine']
+35,['Pays de fabrication\nBangladesh']
+36,[]
+37,['Pays de fabrication\nChine']
+38,"['Teinture\nChine', 'Fabrication\nIndonésie']"
+39,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nChine']"
+40,['Pays de fabrication\nChine']
+41,"['Teinture\nChine', 'Fabrication\nBangladesh']"
+42,[]
+43,['Pays de fabrication\nBirmanie']
+44,"['Teinture\nInde', 'Fabrication\nBangladesh\nInde\nTurquie']"
+45,['Pays de fabrication\nChine']
+46,"['Impression\nChine', 'Fabrication\nBirmanie']"
+47,['Pays de fabrication\nTurquie']
+48,"['Pays d’origine du matériau\nBangladesh', 'Pays de fabrication\nBangladesh']"
+49,['Pays de fabrication\nChine']
+50,['Pays de fabrication\nChine']
+51,[]
+52,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nChine']"
+53,[]
+54,['Pays de fabrication\nCambodge']
+55,['Pays de fabrication\nTurquie']
+56,"['Teinture\nInde', 'Fabrication\nInde']"
+57,['Pays de fabrication\nBangladesh\nTurquie']
+58,['Pays de fabrication\nBangladesh']
+59,"['Teinture\nTurquie', 'Fabrication\nTurquie']"
+60,['Pays de fabrication\nTurquie']
+61,['Pays de fabrication\nCambodge\nChine\nTurquie']
+62,['Pays de fabrication\nCambodge']
+63,['Pays de fabrication\nChine']
+64,['Pays de fabrication\nInde']
+65,['Pays de fabrication\nChine\nTurquie']
+66,['Pays de fabrication\nChine']
+67,['Pays de fabrication\nTurquie']
+68,['Pays de fabrication\nChine']
+69,['Pays de fabrication\nIndonésie']
+70,['Pays de fabrication\nBangladesh']
+71,['Pays de fabrication\nChine']
+72,['Pays de fabrication\nBangladesh']
+73,['Pays de fabrication\nCambodge']
+74,"['Pays d’origine du matériau\nBangladesh', 'Pays de fabrication\nBangladesh']"
+75,"['Teinture\nBangladesh\nTurquie', 'Fabrication\nBangladesh\nInde\nBirmanie\nTurquie']"
+76,['Pays de fabrication\nChine']
+77,['Pays de fabrication\nChine']
+78,['Pays de fabrication\nChine']
+79,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nBirmanie']"
+80,"['Teinture\nInde', 'Fabrication\nInde']"
+81,['Pays de fabrication\nTurquie']
+82,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nChine']"
+83,['Pays de fabrication\nVietnam']
+84,['Pays de fabrication\nChine']
+85,['Pays de fabrication\nBangladesh']
+86,['Pays de fabrication\nBangladesh']
+87,['Pays de fabrication\nMaroc']
+88,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+89,"['Teinture\nChine\nTurquie', 'Fabrication\nCambodge\nTurquie']"
+90,['Pays de fabrication\nBirmanie']
+91,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nBirmanie']"
+92,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nCambodge']"
+93,['Pays de fabrication\nCambodge\nChine\nTurquie']
+94,['Pays de fabrication\nCambodge']
+95,['Pays de fabrication\nInde']
+96,['Pays de fabrication\nChine']
+97,['Pays de fabrication\nChine']
+98,['Pays de fabrication\nBirmanie']
+99,['Pays de fabrication\nChine']
+100,['Pays de fabrication\nChine']
+101,"['Teinture\nBangladesh', 'Fabrication\nBangladesh\nInde']"
+102,['Pays de fabrication\nChine']
+103,"['Teinture\nBangladesh', 'Fabrication\nBangladesh\nInde']"
+104,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+105,['Pays de fabrication\nCambodge']
+106,['Pays de fabrication\nVietnam']
+107,"['Teinture\nInde', 'Fabrication\nInde']"
+108,['Pays de fabrication\nTurquie']
+109,"['Teinture\nInde', 'Fabrication\nBangladesh\nInde']"
+110,['Pays de fabrication\nCambodge\nBirmanie']
+111,['Pays de fabrication\nChine']
+112,['Pays de fabrication\nInde']
+113,['Pays de fabrication\nBangladesh']
+114,"['Impression\nChine', 'Fabrication\nBirmanie']"
+115,['Pays de fabrication\nTurquie']
+116,['Pays de fabrication\nBangladesh']
+117,['Pays de fabrication\nTurquie']
+118,"['Teinture\nTurquie', 'Fabrication\nBangladesh\nCambodge\nBirmanie\nChine\nTurquie']"
+119,['Pays de fabrication\nChine']
+120,['Pays de fabrication\nTurquie']
+121,['Pays de fabrication\nBangladesh']
+122,['Pays de fabrication\nBangladesh']
+123,"['Teinture\nTurquie', 'Fabrication\nTurquie']"
+124,"['Teinture\nInde', 'Fabrication\nBangladesh\nInde\nTurquie']"
+125,['Pays de fabrication\nCambodge']
+126,['Pays de fabrication\nCambodge\nChine']
+127,['Pays de fabrication\nChine']
+128,['Pays de fabrication\nCambodge\nTurquie']
+129,['Pays de fabrication\nCambodge']
+130,['Pays de fabrication\nBangladesh']
+131,['Pays de fabrication\nBirmanie\nChine']
+132,"['Teinture\nChine', 'Fabrication\nCambodge\nTurquie']"
+133,['Pays de fabrication\nChine']
+134,['Pays de fabrication\nTurquie']
+135,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nBirmanie']"
+136,"['Teinture\nChine', 'Fabrication\nVietnam']"
+137,['Pays de fabrication\nBangladesh']
+138,['Pays de fabrication\nBangladesh\nBirmanie']
+139,['Pays de fabrication\nBirmanie']
+140,['Pays de fabrication\nBirmanie']
+141,['Pays de fabrication\nBangladesh']
+142,['Pays de fabrication\nBirmanie\nChine']
+143,['Pays de fabrication\nTurquie']
+144,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+145,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nCambodge']"
+146,['Pays de fabrication\nChine']
+147,['Pays de fabrication\nVietnam']
+148,['Pays de fabrication\nBangladesh']
+149,['Pays de fabrication\nChine']
+150,['Pays de fabrication\nTurquie']
+151,['Pays de fabrication\nIndonésie\nChine']
+152,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+153,['Pays de fabrication\nBangladesh']
+154,['Pays de fabrication\nChine']
+155,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+156,[]
+157,"['Teinture\nTurquie', 'Fabrication\nTurquie']"
+158,"['Teinture\nInde', 'Fabrication\nBangladesh\nInde']"
+159,['Pays de fabrication\nTurquie']
+160,"['Teinture\nInde', 'Fabrication\nBangladesh\nInde']"
+161,['Pays de fabrication\nCambodge']
+162,[]
+163,"['Teinture\nChine', 'Fabrication\nBirmanie']"
+164,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+165,"['Impression\nChine', 'Fabrication\nBirmanie']"
+166,['Pays de fabrication\nBangladesh']
+167,"['Teinture\nIndonésie', 'Fabrication\nIndonésie']"
+168,['Pays de fabrication\nBangladesh\nCambodge\nBirmanie\nChine']
+169,['Pays de fabrication\nChine']
+170,['Pays de fabrication\nIndonésie']
+171,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+172,['Pays de fabrication\nBirmanie\nChine']
+173,['Pays de fabrication\nBangladesh']
+174,['Pays de fabrication\nChine']
+175,['Pays de fabrication\nChine']
+176,['Pays de fabrication\nChine']
+177,['Pays de fabrication\nBirmanie']
+178,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nBirmanie\nChine']"
+179,['Pays de fabrication\nBangladesh']
+180,['Pays de fabrication\nChine']
+181,['Pays de fabrication\nChine']
+182,['Pays de fabrication\nBangladesh']
+183,"['Teinture\nIndonésie', 'Fabrication\nIndonésie']"
+184,['Pays de fabrication\nCambodge']
+185,"['Teinture\nBangladesh', 'Fabrication\nBulgaria\nBangladesh\nInde\nTurquie']"
+186,"['Teinture\nInde', 'Fabrication\nBangladesh\nInde']"
+187,['Pays de fabrication\nChine']
+188,['Pays de fabrication\nInde']
+189,['Pays de fabrication\nBirmanie']
+190,['Pays de fabrication\nTurquie']
+191,['Pays de fabrication\nChine']
+192,['Pays de fabrication\nCambodge\nChine']
+193,[]
+194,['Pays de fabrication\nTurquie']
+195,['Pays de fabrication\nChine']
+196,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+197,"['Teinture\nBangladesh\nInde', 'Fabrication\nBangladesh\nInde']"
+198,['Pays de fabrication\nTurquie']
+199,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+200,['Pays de fabrication\nBangladesh\nIndonésie']
+201,[]
+202,['Pays de fabrication\nBangladesh']
+203,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+204,"['Teinture\nChine', 'Fabrication\nCambodge']"
+205,['Pays de fabrication\nBangladesh']
+206,['Pays de fabrication\nChine']
+207,['Pays de fabrication\nIndonésie']
+208,['Pays de fabrication\nInde']
+209,['Pays de fabrication\nChine\nTurquie']
+210,['Pays de fabrication\nBangladesh']
+211,['Pays de fabrication\nVietnam\nChine']
+212,['Pays de fabrication\nBangladesh']
+213,['Pays de fabrication\nBirmanie']
+214,['Pays de fabrication\nTurquie']
+215,['Pays de fabrication\nChine']
+216,['Pays de fabrication\nBangladesh']
+217,[]
+218,['Pays de fabrication\nBangladesh']
+219,['Pays de fabrication\nCambodge\nChine']
+220,['Pays de fabrication\nCambodge\nTurquie']
+221,"['Pays d’origine du matériau\nBangladesh', 'Pays de fabrication\nBangladesh\nInde\nTurquie']"
+222,"['Teinture\nTurquie', 'Fabrication\nChine\nTurquie']"
+223,['Pays de fabrication\nChine']
+224,"['Teinture\nChine', 'Fabrication\nIndonésie']"
+225,['Pays de fabrication\nCambodge']
+226,['Pays de fabrication\nIndonésie']
+227,['Pays de fabrication\nTurquie']
+228,['Pays de fabrication\nBirmanie']
+229,[]
+230,['Pays de fabrication\nMaroc']
+231,"['Teinture\nIndonésie', 'Fabrication\nIndonésie']"
+232,['Pays de fabrication\nChine']
+233,['Pays de fabrication\nCambodge']
+234,"['Teinture\nTurquie', 'Tissage\nTurquie', 'Fabrication\nTurquie']"
+235,['Pays de fabrication\nVietnam']
+236,['Pays de fabrication\nTurquie']
+237,['Pays de fabrication\nBangladesh']
+238,['Pays de fabrication\nTurquie']
+239,['Pays de fabrication\nInde']
+240,"['Teinture\nTurquie', 'Fabrication\nCambodge\nTurquie']"
+241,['Fabrication\nCambodge']
+242,"['Teinture\nInde', 'Fabrication\nBangladesh\nInde\nTurquie']"
+243,['Pays de fabrication\nBirmanie\nChine']
+244,['Pays de fabrication\nTurquie']
+245,['Pays de fabrication\nGuatemala\nInde']
+246,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+247,['Pays de fabrication\nChine']
+248,['Pays de fabrication\nMaroc']
+249,['Pays de fabrication\nCambodge\nChine']
+250,['Pays de fabrication\nBirmanie']
+251,['Pays de fabrication\nChine']
+252,['Pays de fabrication\nCambodge']
+253,"['Teinture\nChine', 'Tissage\nChine', 'Fabrication\nCambodge']"
+254,['Pays de fabrication\nBangladesh']
+255,"['Teinture\nIndonésie', 'Fabrication\nIndonésie\nInde']"
+256,['Pays de fabrication\nBirmanie']
+257,['Pays de fabrication\nIndonésie']
+258,['Pays de fabrication\nCambodge']
+259,['Pays de fabrication\nCambodge']
+260,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nChine']"
+261,['Pays de fabrication\nBangladesh']
+262,['Pays de fabrication\nChine']
+263,['Pays de fabrication\nBirmanie']
+264,['Pays de fabrication\nChine']
+265,[]
+266,['Pays de fabrication\nBangladesh']
+267,['Pays de fabrication\nBangladesh']
+268,['Pays de fabrication\nChine']
+269,['Pays de fabrication\nMaroc']
+270,"['Teinture\nChine', 'Fabrication\nChine']"
+271,['Pays de fabrication\nBangladesh']
+272,['Pays de fabrication\nBangladesh']
+273,['Pays de fabrication\nCambodge\nChine']
+274,['Pays de fabrication\nIndonésie']
+275,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nChine']"
+276,['Pays de fabrication\nBirmanie']
+277,['Pays de fabrication\nBirmanie']
+278,['Pays de fabrication\nCambodge\nChine\nTurquie']
+279,['Pays de fabrication\nCambodge']
+280,['Pays de fabrication\nBangladesh']
+281,['Pays de fabrication\nChine']
+282,['Fabrication\nCambodge']
+283,['Pays de fabrication\nChine']
+284,['Pays de fabrication\nBangladesh']
+285,['Pays de fabrication\nTurquie']
+286,['Pays de fabrication\nIndonésie']
+287,['Fabrication\nCambodge']
+288,['Pays de fabrication\nBirmanie']
+289,['Pays de fabrication\nChine']
+290,"['Teinture\nInde', 'Fabrication\nInde']"
+291,['Pays de fabrication\nBirmanie']
+292,['Pays de fabrication\nChine']
+293,['Pays de fabrication\nChine']
+294,['Pays de fabrication\nChine']
+295,"['Impression\nChine', 'Fabrication\nBirmanie']"
+296,['Pays de fabrication\nBirmanie']
+297,"['Teinture\nBangladesh\nInde\nTurquie', 'Fabrication\nBangladesh\nInde\nBirmanie\nTurquie']"
+298,['Pays de fabrication\nCambodge']
+299,['Pays de fabrication\nBangladesh']
+300,['Pays de fabrication\nChine']
+301,['Pays de fabrication\nBangladesh\nInde\nBirmanie']
+302,[]
+303,['Pays de fabrication\nChine']
+304,['Pays de fabrication\nChine']
+305,['Pays de fabrication\nTurquie']
+306,['Pays de fabrication\nInde\nChine\nTurquie']
+307,['Pays de fabrication\nCambodge\nTurquie']
+308,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+309,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nChine']"
+310,['Pays de fabrication\nBangladesh\nTurquie']
+311,['Pays de fabrication\nTurquie']
+312,['Pays de fabrication\nCambodge']
+313,['Pays de fabrication\nInde']
+314,['Pays de fabrication\nChine']
+315,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+316,"['Teinture\nChine', 'Fabrication\nCambodge']"
+317,['Pays de fabrication\nChine']
+318,['Pays de fabrication\nMaroc\nChine']
+319,['Pays de fabrication\nBangladesh']
+320,['Pays de fabrication\nChine']
+321,['Pays de fabrication\nChine']
+322,['Pays de fabrication\nCambodge']
+323,['Pays de fabrication\nBangladesh']
+324,['Pays de fabrication\nCambodge\nChine']
+325,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+326,[]
+327,['Pays de fabrication\nChine']
+328,['Pays de fabrication\nBangladesh']
+329,['Pays de fabrication\nKenya\nBangladesh']
+330,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+331,['Pays de fabrication\nCambodge']
+332,"['Teinture\nInde', 'Fabrication\nGuatemala\nInde']"
+333,['Pays de fabrication\nChine']
+334,['Pays de fabrication\nBangladesh']
+335,['Pays de fabrication\nCambodge']
+336,"['Teinture\nTurquie', 'Fabrication\nTurquie']"
+337,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+338,['Pays de fabrication\nTurquie']
+339,['Pays de fabrication\nBirmanie\nChine']
+340,['Pays de fabrication\nBirmanie']
+341,['Pays de fabrication\nBirmanie']
+342,['Pays de fabrication\nInde']
+343,"['Teinture\nTurquie', 'Fabrication\nBangladesh\nTurquie']"
+344,['Pays de fabrication\nChine']
+345,"['Teinture\nInde', 'Fabrication\nInde']"
+346,"['Teinture\nHonduras\nInde', 'Fabrication\nGuatemala\nInde']"
+347,['Pays de fabrication\nBangladesh']
+348,['Pays de fabrication\nChine']
+349,['Pays de fabrication\nCambodge\nChine']
+350,['Pays de fabrication\nIndonésie\nChine']
+351,"['Pays d’origine du matériau\nInde', 'Pays de fabrication\nInde']"
+352,"['Teinture\nCambodge', 'Fabrication\nCambodge']"
+353,[]
+354,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+355,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+356,['Pays de fabrication\nBulgaria']
+357,['Pays de fabrication\nTurquie']
+358,['Pays de fabrication\nBirmanie']
+359,['Pays de fabrication\nChine']
+360,['Pays de fabrication\nInde']
+361,['Pays de fabrication\nChine']
+362,"['Pays d’origine du matériau\nBangladesh', 'Pays de fabrication\nBangladesh']"
+363,['Pays de fabrication\nVietnam']
+364,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+365,['Pays de fabrication\nBirmanie']
+366,['Pays de fabrication\nIndonésie']
+367,['Pays de fabrication\nChine']
+368,"['Teinture\nTurquie', 'Fabrication\nTurquie']"
+369,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nChine']"
+370,['Fabrication\nTurquie']
+371,['Pays de fabrication\nInde']
+372,"['Teinture\nBangladesh', 'Fabrication\nBangladesh\nTurquie']"
+373,['Pays de fabrication\nChine']
+374,['Pays de fabrication\nTurquie']
+375,['Pays de fabrication\nBangladesh']
+376,['Pays de fabrication\nIndonésie']
+377,['Pays de fabrication\nChine']
+378,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+379,['Pays de fabrication\nIndonésie']
+380,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+381,['Pays de fabrication\nChine']
+382,['Pays de fabrication\nCambodge\nTurquie']
+383,['Pays de fabrication\nTurquie']
+384,['Pays de fabrication\nIndonésie']
+385,['Pays de fabrication\nChine\nTurquie']
+386,['Pays de fabrication\nChine']
+387,['Pays de fabrication\nChine']
+388,['Pays de fabrication\nBangladesh\nTurquie']
+389,['Pays de fabrication\nBirmanie']
+390,['Pays de fabrication\nCambodge']
+391,['Pays de fabrication\nChine']
+392,['Pays de fabrication\nBangladesh']
+393,['Pays de fabrication\nTurquie']
+394,['Pays de fabrication\nVietnam']
+395,"['Pays d’origine du matériau\nBangladesh', 'Pays de fabrication\nBangladesh']"
+396,['Pays de fabrication\nBangladesh']
+397,['Pays de fabrication\nRoumanie']
+398,['Pays de fabrication\nTurquie']
+399,[]
+400,['Pays de fabrication\nTurquie']
+401,"['Teinture\nChine', 'Fabrication\nCambodge']"
+402,['Pays de fabrication\nTurquie']
+403,['Pays de fabrication\nBirmanie\nChine']
+404,['Pays de fabrication\nChine']
+405,['Fabrication\nTurquie']
+406,['Pays de fabrication\nChine']
+407,['Pays de fabrication\nBangladesh']
+408,"['Teinture\nChine', 'Fabrication\nIndonésie']"
+409,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nBirmanie']"
+410,['Pays de fabrication\nChine']
+411,"['Pays d’origine du matériau\nTurquie', 'Pays de fabrication\nTurquie']"
+412,"['Teinture\nChine', 'Fabrication\nChine']"
+413,['Pays de fabrication\nBangladesh']
+414,['Pays de fabrication\nChine\nTurquie']
+415,['Pays de fabrication\nChine']
+416,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+417,['Pays de fabrication\nChine\nTurquie']
+418,['Pays de fabrication\nVietnam']
+419,[]
+420,['Pays de fabrication\nChine']
+421,"['Teinture\nChine', 'Fabrication\nBangladesh']"
+422,"['Teinture\nTurquie', 'Fabrication\nChine\nTurquie']"
+423,"['Teinture\nTurquie', 'Fabrication\nTurquie']"
+424,['Pays de fabrication\nBirmanie']
+425,['Pays de fabrication\nInde']
+426,['Pays de fabrication\nBirmanie\nChine']
+427,"['Teinture\nChine', 'Fabrication\nIndonésie']"
+428,"['Teinture\nHonduras\nInde', 'Fabrication\nBangladesh\nGuatemala\nInde']"
+429,['Pays de fabrication\nChine']
+430,['Pays de fabrication\nBirmanie']
+431,['Pays de fabrication\nBangladesh']
+432,"['Pays d’origine du matériau\nVietnam', 'Pays de fabrication\nVietnam']"
+433,['Pays de fabrication\nInde']
+434,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+435,['Pays de fabrication\nCambodge']
+436,"['Teinture\nChine', 'Fabrication\nCambodge']"
+437,['Pays de fabrication\nChine']
+438,['Pays de fabrication\nIndonésie']
+439,['Pays de fabrication\nTurquie']
+440,['Pays de fabrication\nBangladesh']
+441,['Pays de fabrication\nInde']
+442,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+443,['Pays de fabrication\nBangladesh\nInde']
+444,['Pays de fabrication\nChine']
+445,['Fabrication\nChine']
+446,['Pays de fabrication\nCambodge']
+447,"['Pays d’origine du matériau\nBangladesh', 'Pays de fabrication\nBangladesh']"
+448,"['Teinture\nIndonésie', 'Fabrication\nIndonésie']"
+449,"['Teinture\nTurquie', 'Fabrication\nTurquie']"
+450,['Pays de fabrication\nTurquie']
+451,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nChine']"
+452,['Pays de fabrication\nBirmanie']
+453,['Pays de fabrication\nChine']
+454,['Pays de fabrication\nChine']
+455,['Pays de fabrication\nBulgaria']
+456,['Pays de fabrication\nTurquie']
+457,['Pays de fabrication\nTurquie']
+458,"['Teinture\nChine', 'Fabrication\nChine']"
+459,['Pays de fabrication\nBangladesh']
+460,['Pays de fabrication\nBirmanie']
+461,['Pays de fabrication\nChine']
+462,"['Teinture\nTurquie', 'Fabrication\nTurquie']"
+463,['Pays de fabrication\nChine']
+464,['Pays de fabrication\nIndonésie']
+465,[]
+466,['Pays de fabrication\nTurquie']
+467,['Pays de fabrication\nTurquie']
+468,['Pays de fabrication\nBangladesh\nMexique']
+469,['Pays de fabrication\nTurquie']
+470,['Pays de fabrication\nIndonésie']
+471,['Pays de fabrication\nBangladesh']
+472,['Pays de fabrication\nChine\nTurquie']
+473,['Pays de fabrication\nBangladesh\nInde']
+474,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nBirmanie']"
+475,[]
+476,['Pays de fabrication\nBangladesh']
+477,"['Teinture\nChine', 'Fabrication\nBirmanie']"
+478,['Pays de fabrication\nTurquie']
+479,['Pays de fabrication\nChine']
+480,['Pays de fabrication\nBirmanie']
+481,['Pays de fabrication\nChine']
+482,['Pays de fabrication\nCambodge']
+483,"['Teinture\nTurquie', 'Fabrication\nBulgaria\nCambodge\nTurquie']"
+484,['Pays de fabrication\nBangladesh']
+485,['Pays de fabrication\nBangladesh']
+486,['Pays de fabrication\nCambodge']
+487,['Pays de fabrication\nMaroc']
+488,['Pays de fabrication\nVietnam']
+489,['Pays de fabrication\nBangladesh']
+490,['Pays de fabrication\nChine']
+491,['Pays de fabrication\nChine']
+492,['Pays de fabrication\nCambodge']
+493,['Pays de fabrication\nIndonésie']
+494,['Pays de fabrication\nInde']
+495,['Pays de fabrication\nChine']
+496,['Pays de fabrication\nBirmanie']
+497,['Pays de fabrication\nTurquie']
+498,"['Teinture\nChine', 'Fabrication\nIndonésie']"
+499,['Pays de fabrication\nBangladesh']
+500,"['Teinture\nChine\nTurquie', 'Fabrication\nBirmanie\nTurquie']"
+501,['Pays de fabrication\nTurquie']
+502,['Pays de fabrication\nBirmanie']
+503,['Pays de fabrication\nChine']
+504,['Pays de fabrication\nBangladesh']
+505,['Pays de fabrication\nIndonésie']
+506,['Pays de fabrication\nBangladesh']
+507,['Pays de fabrication\nBangladesh']
+508,['Pays de fabrication\nBangladesh']
+509,['Pays de fabrication\nTurquie']
+510,['Pays de fabrication\nTurquie']
+511,['Pays de fabrication\nChine\nTurquie']
+512,['Pays de fabrication\nChine']
+513,['Pays de fabrication\nBangladesh\nIndonésie\nChine\nTurquie']
+514,['Pays de fabrication\nChine']
+515,['Pays de fabrication\nChine']
+516,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+517,['Pays de fabrication\nCambodge']
+518,['Pays de fabrication\nBangladesh\nInde\nChine\nTurquie']
+519,['Fabrication\nBirmanie']
+520,['Pays de fabrication\nIndonésie']
+521,['Pays de fabrication\nBirmanie']
+522,['Pays de fabrication\nChine']
+523,['Pays de fabrication\nInde']
+524,['Pays de fabrication\nChine']
+525,"['Teinture\nChine\nTurquie', 'Fabrication\nCambodge\nBirmanie\nChine\nTurquie']"
+526,['Pays de fabrication\nBangladesh']
+527,['Pays de fabrication\nBangladesh']
+528,['Pays de fabrication\nChine']
+529,['Pays de fabrication\nChine']
+530,['Pays de fabrication\nChine']
+531,['Pays de fabrication\nChine']
+532,['Pays de fabrication\nCambodge\nChine']
+533,['Pays de fabrication\nChine']
+534,['Pays de fabrication\nChine']
+535,['Pays de fabrication\nInde']
+536,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+537,['Pays de fabrication\nChine']
+538,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nCambodge']"
+539,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+540,['Pays de fabrication\nTurquie']
+541,['Pays de fabrication\nChine']
+542,['Pays de fabrication\nBangladesh']
+543,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+544,"['Teinture\nChine', 'Fabrication\nBangladesh\nCambodge']"
+545,['Pays de fabrication\nChine']
+546,['Pays de fabrication\nBangladesh']
+547,['Pays de fabrication\nBirmanie\nChine']
+548,['Pays de fabrication\nChine']
+549,"['Teinture\nInde', 'Tissage\nInde', 'Fabrication\nInde']"
+550,['Pays de fabrication\nChine']
+551,['Pays de fabrication\nVietnam']
+552,['Pays de fabrication\nBangladesh\nInde']
+553,['Pays de fabrication\nBangladesh\nInde']
+554,['Pays de fabrication\nChine']
+555,['Fabrication\nChine']
+556,['Pays de fabrication\nMaroc\nChine']
+557,['Pays de fabrication\nChine']
+558,"['Pays d’origine du matériau\nBangladesh', 'Pays de fabrication\nBangladesh']"
+559,['Pays de fabrication\nMaroc']
+560,['Pays de fabrication\nCambodge\nChine']
+561,['Pays de fabrication\nBirmanie']
+562,['Pays de fabrication\nChine']
+563,"['Teinture\nCambodge', 'Fabrication\nCambodge']"
+564,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+565,"['Teinture\nBangladesh', 'Fabrication\nBangladesh\nTurquie']"
+566,['Pays de fabrication\nTurquie']
+567,['Pays de fabrication\nBangladesh']
+568,['Pays de fabrication\nChine']
+569,['Pays de fabrication\nChine']
+570,['Pays de fabrication\nChine']
+571,['Pays de fabrication\nInde']
+572,['Pays de fabrication\nBirmanie']
+573,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+574,[]
+575,[]
+576,"['Teinture\nChine', 'Fabrication\nChine']"
+577,['Pays de fabrication\nBulgaria\nBangladesh']
+578,['Pays de fabrication\nChine']
+579,"['Teinture\nChine', 'Fabrication\nChine']"
+580,['Pays de fabrication\nChine']
+581,['Pays de fabrication\nBirmanie']
+582,"['Tissage\nChine', 'Fabrication\nIndonésie']"
+583,[]
+584,['Pays de fabrication\nChine']
+585,['Pays de fabrication\nChine']
+586,[]
+587,['Pays de fabrication\nIndonésie']
+588,"['Teinture\nInde', 'Fabrication\nInde']"
+589,['Pays de fabrication\nCambodge']
+590,"['Teinture\nBangladesh', 'Fabrication\nBangladesh\nTurquie']"
+591,[]
+592,['Pays de fabrication\nChine']
+593,"['Teinture\nChine', 'Fabrication\nCambodge\nTurquie']"
+594,['Pays de fabrication\nBulgaria\nCambodge\nTurquie']
+595,['Pays de fabrication\nCambodge']
+596,"['Teinture\nChine', 'Fabrication\nIndonésie']"
+597,['Pays de fabrication\nTurquie']
+598,['Pays de fabrication\nChine']
+599,['Pays de fabrication\nChine']
+600,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nBirmanie']"
+601,['Pays de fabrication\nTurquie']
+602,['Pays de fabrication\nBangladesh']
+603,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+604,[]
+605,['Pays de fabrication\nBangladesh']
+606,['Pays de fabrication\nBangladesh']
+607,['Pays de fabrication\nChine\nTurquie']
+608,['Pays de fabrication\nVietnam']
+609,['Pays de fabrication\nBangladesh']
+610,['Pays de fabrication\nVietnam']
+611,['Pays de fabrication\nChine']
+612,['Pays de fabrication\nCambodge']
+613,['Fabrication\nBirmanie']
+614,[]
+615,"['Tissage\nChine', 'Fabrication\nVietnam']"
+616,['Pays de fabrication\nTurquie']
+617,['Pays de fabrication\nChine']
+618,['Pays de fabrication\nBirmanie']
+619,['Pays de fabrication\nChine']
+620,['Pays de fabrication\nVietnam']
+621,['Pays de fabrication\nChine']
+622,['Pays de fabrication\nTurquie']
+623,['Pays de fabrication\nBangladesh\nCambodge\nBirmanie\nVietnam\nChine']
+624,"['Teinture\nChine', 'Fabrication\nCambodge\nTurquie']"
+625,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+626,['Pays de fabrication\nIndonésie']
+627,['Pays de fabrication\nCambodge']
+628,['Pays de fabrication\nChine']
+629,['Pays de fabrication\nTurquie']
+630,['Pays de fabrication\nCambodge\nBirmanie']
+631,['Pays de fabrication\nBangladesh']
+632,[]
+633,['Pays de fabrication\nChine']
+634,['Pays de fabrication\nBirmanie']
+635,['Pays de fabrication\nVietnam']
+636,['Pays de fabrication\nBirmanie']
+637,['Pays de fabrication\nTurquie']
+638,['Pays de fabrication\nBulgaria\nBangladesh']
+639,['Pays de fabrication\nChine']
+640,['Pays de fabrication\nBangladesh']
+641,['Pays de fabrication\nChine']
+642,['Pays de fabrication\nChine']
+643,['Pays de fabrication\nTurquie']
+644,['Pays de fabrication\nCambodge']
+645,['Pays de fabrication\nChine']
+646,['Pays de fabrication\nInde']
+647,['Pays de fabrication\nBirmanie']
+648,"['Teinture\nBangladesh\nInde', 'Fabrication\nBangladesh\nInde']"
+649,['Pays de fabrication\nChine']
+650,['Pays de fabrication\nCambodge']
+651,[]
+652,"['Teinture\nBangladesh', 'Fabrication\nBangladesh\nTurquie']"
+653,['Pays de fabrication\nBangladesh']
+654,"['Teinture\nTurquie', 'Fabrication\nBangladesh\nTurquie']"
+655,['Pays de fabrication\nTurquie']
+656,"['Teinture\nChine', 'Fabrication\nChine']"
+657,"['Teinture\nIndonésie', 'Fabrication\nIndonésie']"
+658,['Pays de fabrication\nChine']
+659,['Pays de fabrication\nChine']
+660,['Pays de fabrication\nVietnam']
+661,['Pays de fabrication\nBangladesh']
+662,['Pays de fabrication\nChine']
+663,"['Teinture\nChine', 'Fabrication\nChine\nTurquie']"
+664,['Pays de fabrication\nTurquie']
+665,['Pays de fabrication\nCambodge']
+666,['Pays de fabrication\nChine']
+667,[]
+668,['Pays de fabrication\nBangladesh\nInde']
+669,['Pays de fabrication\nCambodge']
+670,['Pays de fabrication\nBangladesh']
+671,['Pays de fabrication\nChine']
+672,[]
+673,"['Teinture\nInde', 'Fabrication\nBangladesh\nIndonésie\nInde\nTurquie\nEthiopie']"
+674,['Pays de fabrication\nChine']
+675,"['Teinture\nBangladesh\nInde', 'Fabrication\nBangladesh\nInde']"
+676,"['Teinture\nChine', 'Fabrication\nVietnam']"
+677,['Pays de fabrication\nChine']
+678,"['Teinture\nChine', 'Fabrication\nCambodge\nChine']"
+679,['Pays de fabrication\nChine']
+680,['Pays de fabrication\nBirmanie']
+681,['Pays de fabrication\nChine']
+682,['Pays de fabrication\nCambodge']
+683,['Pays de fabrication\nVietnam']
+684,['Pays de fabrication\nChine']
+685,['Pays de fabrication\nCambodge']
+686,['Pays de fabrication\nTurquie']
+687,['Pays de fabrication\nIndonésie']
+688,['Pays de fabrication\nChine']
+689,['Pays de fabrication\nBangladesh']
+690,['Pays de fabrication\nBulgaria']
+691,['Pays de fabrication\nChine']
+692,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+693,['Pays de fabrication\nChine']
+694,"['Impression\nChine', 'Fabrication\nBirmanie']"
+695,['Pays de fabrication\nChine']
+696,['Pays de fabrication\nChine']
+697,"['Teinture\nChine', 'Fabrication\nChine']"
+698,['Pays de fabrication\nChine']
+699,['Pays de fabrication\nCambodge\nBirmanie']
+700,"['Teinture\nIndonésie', 'Fabrication\nIndonésie']"
+701,['Pays de fabrication\nTurquie']
+702,['Pays de fabrication\nMaroc\nChine']
+703,['Pays de fabrication\nInde']
+704,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+705,['Pays de fabrication\nBangladesh']
+706,['Pays de fabrication\nInde']
+707,['Pays de fabrication\nChine']
+708,[]
+709,['Pays de fabrication\nCambodge']
+710,['Pays de fabrication\nCambodge']
+711,"['Teinture\nIndonésie', 'Fabrication\nIndonésie']"
+712,['Pays de fabrication\nCambodge']
+713,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+714,['Pays de fabrication\nBangladesh']
+715,['Pays de fabrication\nTurquie']
+716,['Pays de fabrication\nChine']
+717,['Pays de fabrication\nBirmanie']
+718,['Pays de fabrication\nMaroc']
+719,['Pays de fabrication\nChine\nTurquie']
+720,['Pays de fabrication\nBangladesh\nInde']
+721,['Pays de fabrication\nBangladesh']
+722,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+723,"['Teinture\nChine', 'Fabrication\nBirmanie']"
+724,['Pays de fabrication\nChine']
+725,"['Teinture\nTurquie', 'Fabrication\nBulgaria\nCambodge\nTurquie']"
+726,[]
+727,['Pays de fabrication\nBangladesh']
+728,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+729,[]
+730,['Pays de fabrication\nBirmanie']
+731,['Pays de fabrication\nTurquie']
+732,['Pays de fabrication\nBirmanie']
+733,['Pays de fabrication\nBirmanie']
+734,['Pays de fabrication\nChine']
+735,['Pays de fabrication\nTurquie']
+736,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nBirmanie']"
+737,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nCambodge']"
+738,['Pays de fabrication\nBangladesh']
+739,"['Pays d’origine du matériau\nChine\nTurquie', 'Pays de fabrication\nChine\nTurquie']"
+740,['Pays de fabrication\nBangladesh']
+741,['Pays de fabrication\nCambodge']
+742,['Pays de fabrication\nBangladesh\nChine']
+743,['Pays de fabrication\nChine\nTurquie']
+744,['Pays de fabrication\nChine']
+745,['Pays de fabrication\nChine']
+746,['Pays de fabrication\nTurquie']
+747,['Pays de fabrication\nInde']
+748,['Pays de fabrication\nChine']
+749,[]
+750,['Pays de fabrication\nBangladesh']
+751,['Pays de fabrication\nTurquie']
+752,"['Teinture\nTurquie', 'Fabrication\nTurquie']"
+753,['Pays de fabrication\nBangladesh\nInde']
+754,['Fabrication\nTurquie']
+755,['Pays de fabrication\nChine']
+756,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+757,['Pays de fabrication\nChine']
+758,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+759,['Pays de fabrication\nTurquie']
+760,['Pays de fabrication\nBangladesh']
+761,['Pays de fabrication\nMaroc']
+762,['Pays de fabrication\nTurquie']
+763,['Pays de fabrication\nCambodge']
+764,"['Teinture\nInde', 'Fabrication\nBangladesh\nInde\nTurquie']"
+765,['Pays de fabrication\nChine']
+766,['Pays de fabrication\nBangladesh\nInde']
+767,['Pays de fabrication\nTurquie']
+768,"['Teinture\nTurquie', 'Tissage\nTurquie', 'Fabrication\nChine\nTurquie']"
+769,['Fabrication\nBirmanie']
+770,['Pays de fabrication\nBangladesh']
+771,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+772,['Pays de fabrication\nBirmanie\nChine']
+773,['Pays de fabrication\nBangladesh']
+774,['Pays de fabrication\nChine']
+775,['Pays de fabrication\nCambodge\nTurquie']
+776,['Pays de fabrication\nChine']
+777,['Pays de fabrication\nVietnam']
+778,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+779,['Pays de fabrication\nBirmanie']
+780,['Pays de fabrication\nTurquie']
+781,"['Teinture\nChine', 'Fabrication\nBangladesh\nCambodge']"
+782,['Pays de fabrication\nBangladesh\nBirmanie']
+783,"['Teinture\nBangladesh\nInde', 'Fabrication\nBulgaria\nBangladesh\nInde\nTurquie']"
+784,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+785,['Pays de fabrication\nTurquie']
+786,['Pays de fabrication\nBangladesh']
+787,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nChine']"
+788,['Pays de fabrication\nChine']
+789,['Pays de fabrication\nChine']
+790,['Pays de fabrication\nChine']
+791,['Pays de fabrication\nBirmanie']
+792,['Pays de fabrication\nBangladesh']
+793,['Pays de fabrication\nBirmanie']
+794,['Fabrication\nBirmanie']
+795,['Pays de fabrication\nTurquie']
+796,['Pays de fabrication\nChine']
+797,['Pays de fabrication\nChine']
+798,"['Pays d’origine du matériau\nChine\nTurquie', 'Pays de fabrication\nCambodge\nTurquie']"
+799,['Pays de fabrication\nBirmanie']
+800,"['Teinture\nTurquie', 'Fabrication\nTurquie']"
+801,['Pays de fabrication\nChine']
+802,['Pays de fabrication\nMaroc']
+803,"['Teinture\nChine', 'Fabrication\nIndonésie']"
+804,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+805,"['Pays d’origine du matériau\nBangladesh', 'Pays de fabrication\nBangladesh']"
+806,['Pays de fabrication\nCambodge']
+807,"['Teinture\nTurquie', 'Fabrication\nBulgaria\nCambodge\nTurquie']"
+808,"['Teinture\nChine', 'Fabrication\nBirmanie']"
+809,['Pays de fabrication\nChine']
+810,['Pays de fabrication\nIndonésie\nMexique']
+811,['Pays de fabrication\nTurquie']
+812,['Pays de fabrication\nBirmanie']
+813,['Pays de fabrication\nTurquie']
+814,['Pays de fabrication\nCambodge']
+815,['Pays de fabrication\nInde']
+816,['Pays de fabrication\nChine']
+817,['Pays de fabrication\nChine']
+818,['Pays de fabrication\nTurquie']
+819,['Pays de fabrication\nCambodge\nTurquie']
+820,['Pays de fabrication\nChine']
+821,"['Teinture\nChine\nTurquie', 'Fabrication\nCambodge\nBirmanie\nChine\nTurquie']"
+822,['Pays de fabrication\nTurquie']
+823,['Pays de fabrication\nTurquie']
+824,"['Teinture\nBangladesh\nInde', 'Fabrication\nBangladesh\nInde']"
+825,['Pays de fabrication\nBangladesh']
+826,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nCambodge']"
+827,['Pays de fabrication\nChine']
+828,['Pays de fabrication\nBangladesh']
+829,['Pays de fabrication\nTurquie']
+830,['Pays de fabrication\nChine']
+831,"['Teinture\nIndonésie', 'Fabrication\nIndonésie']"
+832,['Pays de fabrication\nIndonésie']
+833,['Pays de fabrication\nTurquie']
+834,['Pays de fabrication\nTurquie']
+835,['Pays de fabrication\nBangladesh\nInde\nBirmanie']
+836,"['Pays d’origine du matériau\nInde', 'Pays de fabrication\nInde']"
+837,['Pays de fabrication\nVietnam']
+838,['Pays de fabrication\nTurquie']
+839,['Fabrication\nTurquie']
+840,['Pays de fabrication\nChine']
+841,['Pays de fabrication\nVietnam']
+842,['Pays de fabrication\nChine']
+843,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+844,['Pays de fabrication\nIndonésie']
+845,['Pays de fabrication\nCambodge']
+846,['Pays de fabrication\nChine\nTurquie']
+847,['Pays de fabrication\nChine']
+848,['Pays de fabrication\nChine']
+849,"['Teinture\nInde\nTurquie', 'Fabrication\nBangladesh\nInde\nTurquie']"
+850,[]
+851,['Pays de fabrication\nTurquie']
+852,"['Teinture\nInde\nTurquie', 'Fabrication\nBangladesh\nInde\nTurquie']"
+853,['Pays de fabrication\nTurquie']
+854,['Pays de fabrication\nCambodge']
+855,['Pays de fabrication\nChine']
+856,['Pays de fabrication\nChine']
+857,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+858,['Pays de fabrication\nCambodge']
+859,['Pays de fabrication\nChine']
+860,['Pays de fabrication\nChine\nTurquie']
+861,['Pays de fabrication\nChine']
+862,['Pays de fabrication\nMaroc']
+863,['Pays de fabrication\nBangladesh']
+864,['Pays de fabrication\nBirmanie']
+865,['Pays de fabrication\nBirmanie']
+866,['Pays de fabrication\nBangladesh']
+867,['Pays de fabrication\nBangladesh\nInde']
+868,['Pays de fabrication\nChine']
+869,['Pays de fabrication\nChine']
+870,"['Teinture\nInde', 'Fabrication\nInde\nMexique\nTurquie']"
+871,['Pays de fabrication\nBangladesh']
+872,['Pays de fabrication\nBangladesh']
+873,[]
+874,['Pays de fabrication\nCambodge']
+875,"['Teinture\nChine', '']"
+876,['Pays de fabrication\nBangladesh\nBirmanie']
+877,['Pays de fabrication\nChine']
+878,['Pays de fabrication\nCambodge']
+879,['Pays de fabrication\nTurquie']
+880,['Pays de fabrication\nTurquie']
+881,[]
+882,['Pays de fabrication\nBirmanie']
+883,['Pays de fabrication\nChine']
+884,['Pays de fabrication\nTurquie']
+885,['Pays de fabrication\nChine']
+886,['Pays de fabrication\nVietnam']
+887,['Pays de fabrication\nBangladesh']
+888,['Pays de fabrication\nBirmanie']
+889,['Pays de fabrication\nChine']
+890,['Pays de fabrication\nBangladesh']
+891,"['Teinture\nIndonésie', 'Fabrication\nIndonésie']"
+892,['Pays de fabrication\nChine']
+893,['Pays de fabrication\nBirmanie']
+894,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+895,"['Teinture\nTurquie', 'Fabrication\nTurquie']"
+896,"['Teinture\nIndonésie', 'Fabrication\nIndonésie']"
+897,['Pays de fabrication\nCambodge']
+898,['Pays de fabrication\nChine\nTurquie']
+899,['Pays de fabrication\nBangladesh\nChine']
+900,['Pays de fabrication\nCambodge\nTurquie']
+901,[]
+902,"['Teinture\nChine', 'Fabrication\nBangladesh']"
+903,['Pays de fabrication\nBangladesh\nChine\nTurquie']
+904,['Fabrication\nTurquie']
+905,"['Teinture\nInde', 'Fabrication\nBangladesh\nInde\nTurquie']"
+906,['Pays de fabrication\nChine']
+907,['Pays de fabrication\nChine']
+908,[]
+909,[]
+910,['Pays de fabrication\nBangladesh']
+911,['Pays de fabrication\nBangladesh']
+912,['Pays de fabrication\nBangladesh']
+913,['Pays de fabrication\nChine']
+914,['Pays de fabrication\nChine']
+915,['Pays de fabrication\nBulgaria\nCambodge\nChine\nTurquie']
+916,['Pays de fabrication\nCambodge\nBirmanie\nChine\nTurquie']
+917,['Pays de fabrication\nIndonésie']
+918,['Pays de fabrication\nVietnam']
+919,['Pays de fabrication\nChine']
+920,['Pays de fabrication\nBangladesh']
+921,"['Teinture\nChine', 'Fabrication\nCambodge']"
+922,['Pays de fabrication\nTurquie']
+923,['Pays de fabrication\nBirmanie']
+924,['Pays de fabrication\nTurquie']
+925,['Pays de fabrication\nCambodge\nBirmanie\nChine']
+926,['Pays de fabrication\nCambodge\nVietnam']
+927,['Pays de fabrication\nTurquie']
+928,['Pays de fabrication\nTurquie']
+929,['Pays de fabrication\nChine']
+930,['Pays de fabrication\nChine']
+931,['Pays de fabrication\nBangladesh']
+932,['Pays de fabrication\nInde\nTurquie']
+933,['Pays de fabrication\nChine']
+934,['Pays de fabrication\nInde']
+935,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nBirmanie']"
+936,['Pays de fabrication\nChine']
+937,['Pays de fabrication\nTurquie']
+938,"['Teinture\nChine', 'Fabrication\nChine']"
+939,['Pays de fabrication\nTurquie']
+940,[]
+941,['Pays de fabrication\nIndonésie']
+942,"['Teinture\nIndonésie', 'Fabrication\nIndonésie']"
+943,['Pays de fabrication\nCambodge\nChine']
+944,['Pays de fabrication\nBirmanie']
+945,['Pays de fabrication\nChine']
+946,['Pays de fabrication\nVietnam']
+947,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+948,"['Teinture\nInde', 'Fabrication\nBangladesh\nInde\nTurquie']"
+949,[]
+950,['Pays de fabrication\nChine']
+951,[]
+952,['Pays de fabrication\nMaroc']
+953,['Pays de fabrication\nInde']
+954,"['Teinture\nChine\nTurquie', 'Fabrication\nCambodge\nBirmanie\nChine\nTurquie']"
+955,['Pays de fabrication\nCambodge']
+956,['Pays de fabrication\nChine']
+957,['Pays de fabrication\nBirmanie']
+958,['Pays de fabrication\nVietnam']
+959,['Pays de fabrication\nBangladesh']
+960,['Pays de fabrication\nVietnam']
+961,['Pays de fabrication\nBangladesh']
+962,['Pays de fabrication\nChine']
+963,['Pays de fabrication\nChine']
+964,"['Teinture\nChine', 'Fabrication\nCambodge']"
+965,['Pays de fabrication\nChine']
+966,['Pays de fabrication\nChine']
+967,['Pays de fabrication\nCambodge']
+968,['Pays de fabrication\nChine']
+969,['Pays de fabrication\nTurquie']
+970,['Pays de fabrication\nBangladesh']
+971,['Pays de fabrication\nTurquie']
+972,['Pays de fabrication\nBirmanie']
+973,"['Teinture\nTurquie', 'Fabrication\nBulgaria\nCambodge\nTurquie']"
+974,['Pays de fabrication\nBulgaria\nCambodge']
+975,"['Teinture\nChine', 'Fabrication\nChine\nTurquie']"
+976,['Pays de fabrication\nBirmanie']
+977,"['Teinture\nChine', 'Fabrication\nChine']"
+978,"['Teinture\nTurquie', 'Fabrication\nTurquie']"
+979,['Pays de fabrication\nBangladesh']
+980,['Pays de fabrication\nVietnam']
+981,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nBirmanie']"
+982,['Pays de fabrication\nChine']
+983,['Pays de fabrication\nChine']
+984,['Pays de fabrication\nChine']
+985,['Pays de fabrication\nBirmanie']
+986,[]
+987,"['Teinture\nChine', 'Fabrication\nChine']"
+988,['Pays de fabrication\nChine']
+989,['Pays de fabrication\nBangladesh']
+990,[]
+991,['Pays de fabrication\nBangladesh']
+992,['Pays de fabrication\nBangladesh']
+993,['Pays de fabrication\nChine']
+994,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nBirmanie']"
+995,['Pays de fabrication\nChine']
+996,['Fabrication\nBirmanie']
+997,['Pays de fabrication\nChine\nTurquie']
+998,"['Teinture\nIndonésie', 'Fabrication\nIndonésie']"
+999,['Pays de fabrication\nVietnam']
+1000,['Pays de fabrication\nBangladesh']
+1001,['Pays de fabrication\nChine']
+1002,"['Impression\nChine', 'Fabrication\nBirmanie']"
+1003,[]
+1004,"['Teinture\nIndonésie', 'Fabrication\nIndonésie']"
+1005,[]
+1006,['Pays de fabrication\nChine']
+1007,['Pays de fabrication\nBangladesh\nInde']
+1008,['Pays de fabrication\nChine']
+1009,['Pays de fabrication\nTurquie']
+1010,['Pays de fabrication\nTurquie']
+1011,['Pays de fabrication\nBangladesh']
+1012,['Pays de fabrication\nVietnam']
+1013,"['Teinture\nChine', 'Fabrication\nChine']"
+1014,['Pays de fabrication\nIndonésie']
+1015,['Pays de fabrication\nInde']
+1016,['Pays de fabrication\nTurquie']
+1017,"['Teinture\nTurquie', 'Fabrication\nTurquie']"
+1018,['Pays de fabrication\nTurquie']
+1019,['Pays de fabrication\nChine']
+1020,"['Teinture\nTurquie', 'Fabrication\nChine\nTurquie']"
+1021,['Pays de fabrication\nBirmanie']
+1022,['Pays de fabrication\nBangladesh']
+1023,['Pays de fabrication\nTurquie']
+1024,"['Teinture\nInde', 'Fabrication\nInde']"
+1025,['Pays de fabrication\nChine']
+1026,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+1027,['Pays de fabrication\nChine']
+1028,['Pays de fabrication\nChine']
+1029,['Pays de fabrication\nBirmanie']
+1030,['Pays de fabrication\nChine']
+1031,['Pays de fabrication\nChine']
+1032,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+1033,['Pays de fabrication\nBangladesh\nIndonésie\nChine\nTurquie']
+1034,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nBirmanie']"
+1035,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nBirmanie']"
+1036,['Pays de fabrication\nChine']
+1037,['Pays de fabrication\nChine']
+1038,['Pays de fabrication\nChine']
+1039,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nChine']"
+1040,['Pays de fabrication\nChine']
+1041,['Pays de fabrication\nIndonésie\nInde']
+1042,['Fabrication\nVietnam']
+1043,['Pays de fabrication\nTurquie']
+1044,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nChine']"
+1045,['Pays de fabrication\nChine']
+1046,['Pays de fabrication\nChine']
+1047,['Pays de fabrication\nBangladesh\nIndonésie\nInde\nTurquie\nEthiopie']
+1048,['Pays de fabrication\nChine']
+1049,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nBirmanie']"
+1050,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nBirmanie']"
+1051,['Pays de fabrication\nChine']
+1052,['Pays de fabrication\nChine\nTurquie']
+1053,"['Teinture\nIndonésie', 'Fabrication\nIndonésie']"
+1054,"['Teinture\nChine', 'Fabrication\nChine']"
+1055,['Pays de fabrication\nChine']
+1056,['Pays de fabrication\nCambodge']
+1057,['Pays de fabrication\nBirmanie\nChine']
+1058,['Pays de fabrication\nCambodge\nChine']
+1059,['Pays de fabrication\nBangladesh']
+1060,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+1061,['Pays de fabrication\nInde']
+1062,['Pays de fabrication\nChine']
+1063,['Pays de fabrication\nChine']
+1064,"['Teinture\nChine', 'Fabrication\nChine']"
+1065,[]
+1066,['Pays de fabrication\nBangladesh']
+1067,['']
+1068,['Pays de fabrication\nBangladesh']
+1069,['Pays de fabrication\nCambodge']
+1070,['Pays de fabrication\nBangladesh']
+1071,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+1072,['Pays de fabrication\nChine']
+1073,"['Teinture\nInde', 'Fabrication\nBangladesh\nInde\nTurquie']"
+1074,['Pays de fabrication\nTurquie']
+1075,['Pays de fabrication\nChine']
+1076,['Pays de fabrication\nChine']
+1077,[]
+1078,['Pays de fabrication\nTurquie']
+1079,['Pays de fabrication\nBangladesh']
+1080,"['Teinture\nIndonésie', 'Fabrication\nIndonésie']"
+1081,"['Teinture\nInde', 'Fabrication\nInde']"
+1082,['Pays de fabrication\nChine']
+1083,['Pays de fabrication\nBangladesh']
+1084,['Pays de fabrication\nVietnam']
+1085,['Pays de fabrication\nChine']
+1086,['Pays de fabrication\nChine']
+1087,['Pays de fabrication\nBangladesh\nTurquie']
+1088,['Pays de fabrication\nTurquie']
+1089,['Pays de fabrication\nCambodge\nChine']
+1090,"['Teinture\nCambodge', 'Fabrication\nCambodge\nBirmanie']"
+1091,['Pays de fabrication\nTurquie']
+1092,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+1093,['Pays de fabrication\nTurquie']
+1094,"['Teinture\nChine\nBangladesh', 'Fabrication\nBangladesh\nBirmanie']"
+1095,['Pays de fabrication\nChine']
+1096,['Pays de fabrication\nTurquie']
+1097,['Pays de fabrication\nIndonésie']
+1098,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+1099,"['Teinture\nChine\nTurquie', 'Fabrication\nCambodge\nChine\nTurquie']"
+1100,"['Teinture\nIndonésie', 'Fabrication\nIndonésie']"
+1101,['Fabrication\nTurquie']
+1102,['Pays de fabrication\nBangladesh']
+1103,"['Teinture\nBangladesh\nInde', 'Fabrication\nBangladesh\nInde']"
+1104,['Pays de fabrication\nTurquie']
+1105,['Pays de fabrication\nBangladesh']
+1106,['Pays de fabrication\nBangladesh']
+1107,['Pays de fabrication\nChine']
+1108,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+1109,['Pays de fabrication\nTurquie']
+1110,['Pays de fabrication\nTurquie']
+1111,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nIndonésie']"
+1112,['Pays de fabrication\nBangladesh']
+1113,['Pays de fabrication\nTurquie']
+1114,['Pays de fabrication\nBirmanie']
+1115,['Pays de fabrication\nCambodge\nBirmanie\nChine\nTurquie']
+1116,['Pays de fabrication\nVietnam']
+1117,['Pays de fabrication\nBangladesh']
+1118,['Pays de fabrication\nInde']
+1119,['Pays de fabrication\nBirmanie\nChine']
+1120,['Pays de fabrication\nTurquie']
+1121,['Pays de fabrication\nBangladesh']
+1122,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+1123,['Pays de fabrication\nChine']
+1124,['Pays de fabrication\nCambodge\nBirmanie\nChine']
+1125,"['Teinture\nTurquie', 'Fabrication\nBulgaria\nCambodge\nTurquie']"
+1126,['Pays de fabrication\nChine']
+1127,[]
+1128,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+1129,['Pays de fabrication\nIndonésie']
+1130,['Pays de fabrication\nBangladesh']
+1131,['Pays de fabrication\nChine']
+1132,['Pays de fabrication\nInde']
+1133,['Pays de fabrication\nCambodge']
+1134,['Pays de fabrication\nChine']
+1135,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nBirmanie']"
+1136,['Pays de fabrication\nBirmanie']
+1137,['Pays de fabrication\nBirmanie']
+1138,['Pays de fabrication\nBirmanie']
+1139,['Pays de fabrication\nCambodge']
+1140,['Pays de fabrication\nIndonésie']
+1141,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nBirmanie']"
+1142,['Pays de fabrication\nBangladesh']
+1143,['Pays de fabrication\nInde']
+1144,['Pays de fabrication\nMaroc']
+1145,['Pays de fabrication\nBangladesh\nMexique']
+1146,"['Teinture\nIndonésie', 'Fabrication\nIndonésie']"
+1147,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+1148,['Pays de fabrication\nBangladesh']
+1149,"['Teinture\nChine', 'Fabrication\nBangladesh\nCambodge']"
+1150,['Pays de fabrication\nChine']
+1151,['Pays de fabrication\nChine']
+1152,['Pays de fabrication\nBirmanie']
+1153,['Pays de fabrication\nChine']
+1154,['Pays de fabrication\nVietnam']
+1155,['Pays de fabrication\nBangladesh']
+1156,['Pays de fabrication\nChine']
+1157,['Pays de fabrication\nChine']
+1158,[]
+1159,"['Teinture\nTurquie', 'Fabrication\nTurquie']"
+1160,['Pays de fabrication\nTurquie']
+1161,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+1162,['Pays de fabrication\nCambodge\nBirmanie\nChine\nTurquie']
+1163,"['Teinture\nTurquie', 'Fabrication\nChine\nTurquie']"
+1164,['Pays de fabrication\nInde']
+1165,['Pays de fabrication\nChine']
+1166,"['Teinture\nTurquie', 'Fabrication\nBulgaria\nCambodge\nTurquie']"
+1167,['Pays de fabrication\nChine']
+1168,"['Teinture\nChine', 'Fabrication\nBangladesh\nCambodge\nChine\nTurquie']"
+1169,[]
+1170,['Pays de fabrication\nBangladesh']
+1171,['Pays de fabrication\nInde']
+1172,['Pays de fabrication\nBangladesh']
+1173,['Pays de fabrication\nBirmanie']
+1174,['Pays de fabrication\nBangladesh\nInde\nTurquie']
+1175,['Pays de fabrication\nChine']
+1176,['Pays de fabrication\nCambodge\nTurquie']
+1177,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+1178,"['Pays d’origine du matériau\nChine', 'Pays de fabrication\nChine']"
+1179,"['Teinture\nTurquie', 'Fabrication\nCambodge\nTurquie']"
+1180,['Pays de fabrication\nTurquie']
+1181,['Pays de fabrication\nBirmanie']
+1182,['Pays de fabrication\nInde']
+1183,['Pays de fabrication\nChine']
+1184,['Pays de fabrication\nIndonésie\nChine']
+1185,['Pays de fabrication\nBirmanie\nChine']
+1186,['Pays de fabrication\nChine']
+1187,['Pays de fabrication\nBirmanie']
+1188,"['Pays d’origine du matériau\nTurquie', 'Pays de fabrication\nTurquie']"
+1189,['']
+1190,['Pays de fabrication\nChine']
+1191,"['Impression\nChine', 'Fabrication\nBirmanie']"
+1192,['Pays de fabrication\nBangladesh\nTurquie']
+1193,"['Pays d’origine du matériau\nBangladesh', 'Pays de fabrication\nBangladesh']"
+1194,['Pays de fabrication\nChine']
+1195,['Pays de fabrication\nChine\nTurquie']
+1196,"['Teinture\nChine', 'Fabrication\nBirmanie']"
+1197,['Pays de fabrication\nBirmanie']
+1198,['Pays de fabrication\nCambodge\nTurquie']
+1199,['Pays de fabrication\nCambodge']
+1200,"['Teinture\nTurquie', 'Fabrication\nChine\nTurquie']"
+1201,[]
+1202,"['Teinture\nChine', 'Fabrication\nChine']"
+1203,['Pays de fabrication\nChine']
+1204,"['Teinture\nChine', 'Fabrication\nChine']"
+1205,['Pays de fabrication\nBangladesh']
+1206,['Pays de fabrication\nChine']
+1207,['Pays de fabrication\nBangladesh']
+1208,['Pays de fabrication\nBirmanie']
+1209,['Pays de fabrication\nChine']
+1210,['Pays de fabrication\nBangladesh']
+1211,"['Teinture\nTurquie', 'Fabrication\nBulgaria\nCambodge\nTurquie']"
+1212,['Pays de fabrication\nCambodge']
+1213,"['Teinture\nBangladesh', 'Fabrication\nBangladesh']"
+1214,[]
+1215,['Pays de fabrication\nTurquie']
+1216,"['Teinture\nChine', 'Fabrication\nCambodge\nTurquie']"
+1217,['Pays de fabrication\nMaroc']
+1218,['Pays de fabrication\nChine']
+1219,"['Teinture\nIndonésie', 'Fabrication\nIndonésie\nMexique']"
+1220,['Pays de fabrication\nChine\nTurquie']
+1221,['Pays de fabrication\nCambodge']
+1222,['Pays de fabrication\nTurquie']
+1223,['Pays de fabrication\nChine\nTurquie']
+1224,['Pays de fabrication\nInde']
+1225,['Pays de fabrication\nBangladesh\nInde']
+1226,[]
+1227,['Pays de fabrication\nTurquie']
+1228,['Pays de fabrication\nChine']
+1229,['Pays de fabrication\nBangladesh']
+1230,"['Teinture\nIndonésie', 'Fabrication\nIndonésie']"
+1231,['Pays de fabrication\nBirmanie']
+1232,['Pays de fabrication\nChine\nTurquie']
+1233,['Pays de fabrication\nCambodge\nChine']
+1234,['Pays de fabrication\nBangladesh']
+1235,['Pays de fabrication\nInde']
+1236,['Pays de fabrication\nChine']
+1237,['Pays de fabrication\nChine']
+1238,['Pays de fabrication\nTurquie']
+1239,['Pays de fabrication\nCambodge']
+1240,[]
+1241,"['Teinture\nIndonésie', 'Fabrication\nBangladesh\nIndonésie']"
+1242,['Pays de fabrication\nCambodge']
+1243,['Pays de fabrication\nBangladesh\nInde']
+1244,['Pays de fabrication\nBirmanie\nChine']
+1245,"['Teinture\nInde', 'Fabrication\nInde']"
+1246,['Pays de fabrication\nBirmanie']
+1247,['Pays de fabrication\nBirmanie']
+1248,['Pays de fabrication\nTurquie']
+1249,['Pays de fabrication\nTurquie']
