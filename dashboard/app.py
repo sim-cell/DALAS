@@ -49,7 +49,7 @@ apprentissage['AUC-ROC Score'] = pd.to_numeric(apprentissage['AUC-ROC Score'], e
 
 app.layout = html.Div(style = {'font-family':'Arial','background-color': '#D8BFD8'}, children=[
     html.Div(id="header",children=[
-    html.H1("La Pollution et les Effets de la Mode Ephémère (Fast Fashion) sur l'Environnement et les Humains Dashboard"),
+    html.H1("L'Environnement et la Mode Ephémère (Fast Fashion) vs Durable (Slow Fashion)"),
     html.H2("Projet DALAS de Aylin et Simay"),
     html.Div("La mode ephémère est un créateur de pollution mais ses effets étaient souvent ignorés jusqu'à le mouvement de mode durable. Les conditions de travail dans ce secteur ne sont pas les meilleurs non plus. Dans ce dashboard, nous allons\
                   découvrir comment les indices de la qualité de vie varient au cours des années et comparer les deux types de mode."),     
@@ -135,7 +135,7 @@ app.layout = html.Div(style = {'font-family':'Arial','background-color': '#D8BFD
         html.Div(id="comparaison",style={'overflow': 'auto'},children=[
             html.Div(id="overall-price", style={'width': '48%','float': 'left','margin-left': '1%','border': '1px solid black', 'padding': '2px'}, children=[
                 dcc.Graph(id='overall-price-comparison')]),
-            html.Div(id="overall-price", style={'width': '48%','float': 'left','margin-left': '1%','border': '1px solid black', 'padding': '2px'}, children=[
+            html.Div(id="overall-price-norm", style={'width': '48%','float': 'left','margin-left': '1%','border': '1px solid black', 'padding': '2px'}, children=[
                 dcc.Graph(id='overall-price-comparison-norm')]),
         ]),
         html.Br(),
@@ -153,10 +153,10 @@ app.layout = html.Div(style = {'font-family':'Arial','background-color': '#D8BFD
         html.Div("Les pays de fabrication des produits sont aussi importants. Les histogrammes montrent les 20 pays les plus fréquents dans chaque type de mode."),
         html.Br(),
         html.Div(id='countriesstats',style={'overflow': 'auto'}, children=[
-            html.Div(id="fast-mat",style={'width': '48%','float': 'left','margin-left': '1%','border': '1px solid black', 'padding': '2px'}, children=[
+            html.Div(id="fast-count",style={'width': '48%','float': 'left','margin-left': '1%','border': '1px solid black', 'padding': '2px'}, children=[
                 dcc.Graph(id='fast-fashion-countries-graph'),
             ]),
-            html.Div(id="slow-mat", style={'width': '48%','float': 'right','margin-right': '1%','border': '1px solid black', 'padding': '2px'},children=[
+            html.Div(id="slow-count", style={'width': '48%','float': 'right','margin-right': '1%','border': '1px solid black', 'padding': '2px'},children=[
                 dcc.Graph(id='slow-fashion-countries-graph')
             ]),
         ]),  
