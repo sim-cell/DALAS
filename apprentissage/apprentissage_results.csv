@@ -1,0 +1,22 @@
+Group,Model,Accuracy,Precision,Recall,F1 Score,AUC-ROC Score
+Price,Random Forest,1.0,1.0,1.0,1.0,1.0
+Materials,Random Forest,0.97,0.98,0.99,0.98,0.94
+Country,Random Forest,0.97,0.99,0.98,0.98,0.96
+Price & Materials,Random Forest,0.99,0.99,1.0,1.0,0.98
+Price & Country,Random Forest,1.0,1.0,1.0,1.0,1.0
+Materials & Country,Random Forest,1.0,1.0,1.0,1.0,1.0
+Price & Materials & Country,Random Forest,1.0,1.0,1.0,1.0,1.0
+Price,Logistic Regression,0.9,0.92,0.97,0.94,0.78
+Materials,Logistic Regression,0.99,0.99,1.0,0.99,0.97
+Country,Logistic Regression,0.96,0.98,0.97,0.97,0.94
+Price & Materials,Logistic Regression,1.0,1.0,0.99,1.0,1.0
+Price & Country,Logistic Regression,0.99,1.0,0.99,1.0,1.0
+Materials & Country,Logistic Regression,1.0,1.0,1.0,1.0,1.0
+Price & Materials & Country,Logistic Regression,1.0,1.0,1.0,1.0,1.0
+Price,SVM,1.0,0.92,0.97,0.94,0.78
+Materials,SVM,1.0,0.99,1.0,0.99,0.97
+Country,SVM,1.0,0.98,0.97,0.97,0.94
+Price & Materials,SVM,1.0,1.0,0.99,1.0,1.0
+Price & Country,SVM,1.0,1.0,0.99,1.0,1.0
+Materials & Country,SVM,1.0,1.0,1.0,1.0,1.0
+Price & Materials & Country,SVM,1.0,1.0,1.0,1.0,1.0

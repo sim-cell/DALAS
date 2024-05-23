@@ -42,17 +42,15 @@ nb_slow_fashion = slow_fashion_data.shape[0]
 
 app.layout = html.Div(style = {'font-family':'Arial','background-color': '#D8BFD8'}, children=[
     html.Div(id="header",children=[
-    html.H1("La Pollution et les Effets de la Mode Ephémère (Fast Fashion) sur l'Environnement et les Humains Dashboard"),
-    html.H2("Projet DALAS de Aylin et Simay"),
-    html.Div("La mode ephémère est un créateur de pollution mais ses effets étaient souvent ignorés jusqu'à le mouvement de mode durable. Les conditions de travail dans ce secteur ne sont pas les meilleurs non plus. Dans ce dashboard, nous allons\
-                  découvrir comment les indices de la qualité de vie varient au cours des années et comparer les deux types de mode."),     
+    html.H2("La Pollution et les Effets de la Mode Ephémère (Fast Fashion) sur l'Environnement et les Humains Dashboard"),
+    html.Div("Projet DALAS de Aylin et Simay"),
+    html.A("Données Numbeo - ", href="https://www.numbeo.com/quality-of-life/rankings_by_country.jsp?title=2014"),
+    html.A("Données H&M France - ", href="https://www2.hm.com/fr_fr/femme.html"),
+    html.A("Données Everlane - ",href="https://www.everlane.com/womens"),
+    # html.Div("La mode ephémère est un créateur de pollution mais ses effets étaient souvent ignorés jusqu'à le mouvement de mode durable. Les conditions de travail dans ce secteur ne sont pas les meilleurs non plus. Dans ce dashboard, nous allons\
+    #               découvrir comment les indices de la qualité de vie varient au cours des années et comparer les deux types de mode."),     
     ]),
-    html.Br(),
-    html.Div(id="annees",style = {'border-top': '4px solid #4B0082', 'padding': '3px'},children=[
-        html.H2("Données sur la pollution et les conditions de vie par année et par pays"),
-        html.A("Les données sont issues de Numbeo et sont disponibles sur leur site.", href="https://www.numbeo.com/quality-of-life/rankings_by_country.jsp?title=2014"),
-        html.Br(),
-        html.Br(),
+    html.Div(id="annees",style = {'border-top': '4px solid #4B0082'},children=[
         html.Label("Choisir l'indice à afficher :"),
         dcc.RadioItems(
             id='index-radio',
@@ -62,12 +60,12 @@ app.layout = html.Div(style = {'font-family':'Arial','background-color': '#D8BFD
                 {'label': 'Indice de Qualité de la Vie', 'value': 'Quality of Life Index'},
                 {'label': 'Indice du Pouvoir d\'Achat', 'value': 'Purchasing Power Index'}
             ],
-            value='Pollution Index'
+            value='Pollution Index',
+            inline=True
         ),
-        html.Br(),
-        html.Div(id='annees-container', style={'width': '100%','height':'30%','overflow': 'auto'}, children=[
-            html.Div(id='map-container', style={'width': '48%','float': 'left','margin-left': '1%','border': '1px solid black', 'padding': '2px'}, children=[
-                html.H3("Carte du Monde Selon l'Environnement et les Conditions des Pays par Année"),
+        html.Div(id='annees-container', style={'width': '100%','height':'20%x','overflow': 'auto'}, children=[
+            html.Div(id='map-container', style={'width': '48%','height': '70%','float': 'left','margin-left': '1%','border': '1px solid black'}, children=[
+                html.Div("Carte du Monde Selon l'Environnement et les Conditions des Pays par Année"),
                 html.Label("Choisir une année :"),
                 dcc.Slider(
                     id='year-slider',
@@ -88,71 +86,54 @@ app.layout = html.Div(style = {'font-family':'Arial','background-color': '#D8BFD
                         step=1)
                     ]
                 ),
-                dcc.Graph(id='map-graph'),
+                dcc.Graph(id='map-graph', style={'height': '100%'}),
             ]),
-            html.Div(id='graph-container', style={'width': '48%', 'float': 'right', 'margin-right':'1%','border': '1px solid black', 'padding': '2px'}, children=[
-                html.H3("Graphe des valeurs d'indice au cours des années par pays"),
+            html.Div(id='graph-container', style={'width': '48%','height': '100%', 'float': 'right', 'margin-right':'1%','border': '1px solid black'}, children=[
+                html.Div("Graphe des valeurs d'indice au cours des années par pays"),
                 html.Label("Choisir le pays :"),
                 dcc.Dropdown(
                     id='country-dropdown',
                     options=[{'label': country, 'value': country} for country in filtered_data['Country'].unique()],
-                    value=fashion_data['Country'].explode().value_counts()[:10].index.tolist(),
+                    value=['France', 'Bangladesh', 'Turkey', 'America', 'China'],
                     multi=True
                 ),
-                dcc.Graph(id='index-graph')
+                dcc.Graph(id='index-graph',style={'height': '70%'})
             ]),
         ]),
         html.Br()
     ]),
     html.Br(),
-    html.Div(id="fashion",style = {'border-top': '4px solid #4B0082', 'padding': '3px'},children=[
-        html.H2("La Mode :  Rapide vs Durable"),
-        html.A("Données de la mode rapide sont obtenus à partir de H&M France", href="https://www2.hm.com/fr_fr/femme.html"),
-        html.Br(),
-        html.A("Données de la mode durable sont obtenus à partir de Everlane",href="https://www.everlane.com/womens"),
-        html.Div(f"Dans cette partie, on se concentre sur les différences entre les deux types de mode. Y-a-t-il une différence de prix? Quels sont les matériaux utilisés?\
-                 Tout d'abord, il y a une différence entre le nombre de produit obtenu de chaque marque, cela peut nous indiquer qu'il y a une difference entre la masse de production.\
-                 Nous nous basons nos analyses sur trois types de produits, des hauts, des jeans et des pantalons."),
-        html.Br(),
-        html.Div(id="basic-stats", style={'width': '100%','height':'30%','overflow': 'auto'}, children=[
-            html.Div(id="total-products",style={'width': '48%','float': 'left','margin-left': '1%','border': '1px solid black', 'padding': '2px'}, children=[
+    html.Div(id="fashion",style = {'border-top': '4px solid #4B0082','height':'20%x'},children=[
+        # html.Div(f"Dans cette partie, on se concentre sur les différences entre les deux types de mode. Y-a-t-il une différence de prix? Quels sont les matériaux utilisés?\
+        #          Tout d'abord, il y a une différence entre le nombre de produit obtenu de chaque marque, cela peut nous indiquer qu'il y a une difference entre la masse de production.\
+        #          Nous nous basons nos analyses sur trois types de produits, des hauts, des jeans et des pantalons."),
+        html.Div(id="basic-stats", style={'height':'10%','overflow': 'auto'}, children=[
+            html.Div(id="total-products",style={'width': '24%','float': 'left','border': '1px solid black'}, children=[
                 dcc.Graph(id='total-products-graph')
             ]),
-            html.Div(id="prices", style={'width': '48%','float': 'right','margin-right': '1%','border': '1px solid black', 'padding': '2px'},children=[
+            html.Div(id="prices", style={'width': '24%','float': 'right','border': '1px solid black'},children=[
                 dcc.Graph(id='price-comparison-graph')
             ]),
-        ]),
-        html.Br(),
-        html.H2("Comparaison des Prix"),
-            html.Div("Les boîtes à moustaches montrent la comparaison des prix entre les deux types de mode. "),
-        html.Div(id="comparaison",style={'overflow': 'auto'},children=[
-            html.Div(id="overall-price", style={'width': '48%','float': 'left','margin-left': '1%','border': '1px solid black', 'padding': '2px'}, children=[
+            html.Div(id="overall-price", style={'width': '24%','float': 'right','border': '1px solid black'}, children=[
                 dcc.Graph(id='overall-price-comparison')]),
-            html.Div(id="overall-price", style={'width': '48%','float': 'left','margin-left': '1%','border': '1px solid black', 'padding': '2px'}, children=[
+            html.Div(id="overall-price", style={'width': '24%','float': 'right','border': '1px solid black'}, children=[
                 dcc.Graph(id='overall-price-comparison-norm')]),
         ]),
-        html.Br(),
-        html.Div("Les  diagramme en camembert montrent les 10 matériaux les plus utilisés dans chaque type de mode. La mode durable et la mode rapide possèdent 20 et 32 matériaux uniques réspectivement. "),
-        html.Br(),
-        html.Div(id='material-stats',style={'overflow': 'auto'}, children=[
-            html.Div(id="fast-mat",style={'width': '48%','float': 'left','margin-left': '1%','border': '1px solid black', 'padding': '2px'}, children=[
+        html.Div(id='material-stats',style={'overflow': 'auto','height':'10%'}, children=[
+            html.Div(id="fast-mat",style={'width': '47%','float': 'left','border': '1px solid black'}, children=[
                 dcc.Graph(id='fast-fashion-materials-graph'),
             ]),
-            html.Div(id="slow-mat", style={'width': '48%','float': 'right','margin-right': '1%','border': '1px solid black', 'padding': '2px'},children=[
+            html.Div(id="slow-mat", style={'width': '47%','float': 'right','border': '1px solid black'},children=[
                 dcc.Graph(id='slow-fashion-materials-graph')
             ]),
-        ]),
-        html.Br(),
-        html.Div("Les pays de fabrication des produits sont aussi importants. Les histogrammes montrent les 20 pays les plus fréquents dans chaque type de mode."),
-        html.Br(),
-        html.Div(id='countriesstats',style={'overflow': 'auto'}, children=[
-            html.Div(id="fast-mat",style={'width': '48%','float': 'left','margin-left': '1%','border': '1px solid black', 'padding': '2px'}, children=[
+            html.Div(id="fast-count",style={'width': '47%','float': 'left','border': '1px solid black', }, children=[
                 dcc.Graph(id='fast-fashion-countries-graph'),
             ]),
-            html.Div(id="slow-mat", style={'width': '48%','float': 'right','margin-right': '1%','border': '1px solid black', 'padding': '2px'},children=[
+            html.Div(id="slow-count", style={'width': '47%','float': 'right','border': '1px solid black'},children=[
                 dcc.Graph(id='slow-fashion-countries-graph')
             ]),
-        ]),  
+        ]),
+
     ]),
     html.Br(),
     
