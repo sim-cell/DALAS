@@ -5,17 +5,19 @@
 
 ##uncomment if needed
 #!pip install --quiet dash  
-#!pip install --quiet pycountry
+#!pip install --quiet plotly
+#!pip install --quiet pandas
+
 from dash import Dash, html, dash_table, dcc, callback, Output, Input
 import plotly.express as px
-import pycountry 
-
+import plotly.graph_objects as go
 import pandas as pd
 
 
 
 app = Dash()
-#basically redoing eda but flm de sauvegarder tous les dataframes obtenus
+
+#basically redoing eda because sinon on doit sauvegarder tous les dataframes obtenus
 #YEARS DATA 
 data = pd.read_csv('../data/data_annees.csv')
 
@@ -28,11 +30,13 @@ filtered_data['Purchasing Power Index'] = pd.to_numeric(filtered_data['Purchasin
 filtered_data.dropna(subset=['Pollution Index', 'Climate Index','Quality of Life Index','Purchasing Power Index'], inplace=True)
 
 #FASHION DATA 
-fast_fashion_data = pd.read_pickle('../data/fastfashion_clean.pkl')
-slow_fashion_data = pd.read_pickle('../data/slowfashion_clean.pkl')
+fashion_data = pd.read_pickle('../apprentissage/base.pkl')
+fast_fashion_data = fashion_data[fashion_data['Brand Type'] == 'Fast Fashion']
+nb_fast_fashion = fast_fashion_data.shape[0]
+slow_fashion_data = fashion_data[fashion_data['Brand Type'] == 'Slow Fashion']
+nb_slow_fashion = slow_fashion_data.shape[0]
 
-average_price_per_item_type_fashion = fast_fashion_data.groupby('Product Type')['Price'].mean()
-average_price_per_item_type_fashion = fast_fashion_data.groupby('Product Type')['Price'].mean()
+
 
 app.layout = html.Div(style = {'font-family':'Arial','background-color': '#D8BFD8'}, children=[
     html.Div(id="header",children=[
@@ -60,7 +64,7 @@ app.layout = html.Div(style = {'font-family':'Arial','background-color': '#D8BFD
         ),
         html.Br(),
         html.Div(id='annees-container', style={'width': '100%','height':'30%','overflow': 'auto'}, children=[
-            html.Div(id='map-container', style={'width': '48%','float': 'left','margin-right': '1%','border': '1px solid black', 'padding': '2px'}, children=[
+            html.Div(id='map-container', style={'width': '48%','float': 'left','margin-left': '1%','border': '1px solid black', 'padding': '2px'}, children=[
                 html.H3("Carte du Monde Selon l'Environnement et les Conditions des Pays par Année"),
                 html.Label("Choisir une année :"),
                 dcc.Slider(
@@ -84,7 +88,7 @@ app.layout = html.Div(style = {'font-family':'Arial','background-color': '#D8BFD
                 ),
                 dcc.Graph(id='map-graph'),
             ]),
-            html.Div(id='graph-container', style={'width': '48%', 'float': 'right', 'margin-left':'1%','border': '1px solid black', 'padding': '2px'}, children=[
+            html.Div(id='graph-container', style={'width': '48%', 'float': 'right', 'margin-right':'1%','border': '1px solid black', 'padding': '2px'}, children=[
                 html.H3("Graphe des valeurs d'indice au cours des années par pays"),
                 html.Label("Choisir le pays :"),
                 dcc.Dropdown(
@@ -99,7 +103,48 @@ app.layout = html.Div(style = {'font-family':'Arial','background-color': '#D8BFD
         html.Br()
     ]),
     html.Br(),
-    html.Div(id="fastfashion",style = {'background-color': '#E6E6FA','border-top': '4px solid #4B0082', 'padding': '1px'},children=[]),
+    html.Div(id="fashion",style = {'border-top': '4px solid #4B0082', 'padding': '3px'},children=[
+        html.H2("La Mode :  Rapide vs Durable"),
+        html.A("Données de la mode rapide sont obtenus à partir de H&M France", href="https://www2.hm.com/fr_fr/femme.html"),
+        html.Br(),
+        html.A("Données de la mode durable sont obtenus à partir de Everlane",href="https://www.everlane.com/womens"),
+        html.Div(f"Dans cette partie, on se concentre sur les différences entre les deux types de mode. Y-a-t-il une différence de prix? Quels sont les matériaux utilisés?\
+                 Tout d'abord, il y a une différence entre le nombre de produit obtenu de chaque marque, cela peut nous indiquer qu'il y a une difference entre la masse de production.\
+                 Nous nous basons nos analyses sur trois types de produits, des hauts, des jeans et des pantalons."),
+        html.Br(),
+        html.Div(id="basic-stats", style={'width': '100%','height':'30%','overflow': 'auto'}, children=[
+            html.Div(id="total-products",style={'width': '48%','float': 'left','margin-left': '1%','border': '1px solid black', 'padding': '2px'}, children=[
+                dcc.Graph(id='total-products-graph')
+            ]),
+            html.Div(id="prices", style={'width': '48%','float': 'right','margin-right': '1%','border': '1px solid black', 'padding': '2px'},children=[
+                dcc.Graph(id='price-comparison-graph')
+            ]),
+        ]),
+        html.Br(),
+        html.Div("Les  diagramme en camembert montrent les 10 matériaux les plus utilisés dans chaque type de mode. La mode durable et la mode rapide possèdent 20 et 32 matériaux uniques réspectivement. "),
+        html.Br(),
+        html.Div(id='material-stats',style={'overflow': 'auto'}, children=[
+            html.Div(id="fast-mat",style={'width': '48%','float': 'left','margin-left': '1%','border': '1px solid black', 'padding': '2px'}, children=[
+                dcc.Graph(id='fast-fashion-materials-graph'),
+            ]),
+            html.Div(id="slow-mat", style={'width': '48%','float': 'right','margin-right': '1%','border': '1px solid black', 'padding': '2px'},children=[
+                dcc.Graph(id='slow-fashion-materials-graph')
+            ]),
+        ]),
+        html.Br(),
+        html.Div("Les pays de fabrication des produits sont aussi importants. Les histogrammes montrent les 20 pays les plus fréquents dans chaque type de mode."),
+        html.Br(),
+        html.Div(id='countriesstats',style={'overflow': 'auto'}, children=[
+            html.Div(id="fast-mat",style={'width': '48%','float': 'left','margin-left': '1%','border': '1px solid black', 'padding': '2px'}, children=[
+                dcc.Graph(id='fast-fashion-countries-graph'),
+            ]),
+            html.Div(id="slow-mat", style={'width': '48%','float': 'right','margin-right': '1%','border': '1px solid black', 'padding': '2px'},children=[
+                dcc.Graph(id='slow-fashion-countries-graph')
+            ]),
+        ]),
+          
+    ])
+       
  ])
 
 
@@ -111,7 +156,14 @@ app.layout = html.Div(style = {'font-family':'Arial','background-color': '#D8BFD
      Output('index-slider', 'max'),
      Output('index-slider', 'marks'),
      Output('index-slider', 'value'),
-     Output('index-graph', 'figure')],
+     Output('index-graph', 'figure'),
+     Output('price-comparison-graph', 'figure'),
+     Output('total-products-graph', 'figure'),
+     Output('fast-fashion-materials-graph', 'figure'),
+     Output('slow-fashion-materials-graph', 'figure'),
+     Output('fast-fashion-countries-graph', 'figure'),
+     Output('slow-fashion-countries-graph', 'figure'),
+     ],
     [Input('year-slider', 'value'),
      Input('index-radio', 'value'),
      Input('index-slider', 'value'),
@@ -119,7 +171,7 @@ app.layout = html.Div(style = {'font-family':'Arial','background-color': '#D8BFD
 )
 
 
-def update_annees(selected_year, selected_index, slider_value, selected_countries):
+def update_everything(selected_year, selected_index, slider_value, selected_countries):
     # map
     year_data = filtered_data[filtered_data['Year'] == selected_year]
 
@@ -146,10 +198,63 @@ def update_annees(selected_year, selected_index, slider_value, selected_countrie
 
     fig2 = px.line(filtered_country_data, x='Year', y=selected_index, color='Country', title=f'{selected_index} Au Cours des Années')
 
-    return fig1, min_val, max_val, marks, slider_value,fig2
+    ## comparaison des prix
+    average_price_per_item_type_fast = fast_fashion_data.groupby('Product Type')['Price'].mean()
+    average_price_per_item_type_slow = slow_fashion_data.groupby('Product Type')['Price'].mean()
+
+    fig3 = go.Figure(data=[
+        go.Bar(name='Fast Fashion', x=average_price_per_item_type_fast.index, y=average_price_per_item_type_fast.values),
+        go.Bar(name='Slow Fashion', x=average_price_per_item_type_slow.index, y=average_price_per_item_type_slow.values)
+    ])
+
+    fig3.update_layout(barmode='group', title='Comparaison des Prix Moyen', xaxis_title='Type de Produit', yaxis_title='Prix Moyen')
+
+    ## comparison in mass
+    total_fast_fashion = len(fast_fashion_data)
+    total_slow_fashion = len(slow_fashion_data)
+
+    fig4 = go.Figure(data=[
+        go.Bar(name='Fast Fashion', x=['Total Products'], y=[total_fast_fashion]),
+        go.Bar(name='Slow Fashion', x=['Total Products'], y=[total_slow_fashion])
+    ])
+
+    fig4.update_layout(barmode='group', title='Nombre Total des Produits', yaxis_title='Nombre de Produits')
+
+    #materials
+    material_counts_fast_fashion = fast_fashion_data['Materials'].explode().value_counts()[:10]
+    material_counts_slow_fashion = slow_fashion_data['Materials'].explode().value_counts()[:10]
+    fig5 = go.Figure(data=[
+        go.Pie(labels=material_counts_fast_fashion.index, values=material_counts_fast_fashion.values)
+    ])
+
+    fig5.update_layout(title='Top 10 Matériaux dans Mode Rapide')
+    fig6 = go.Figure(data=[
+        go.Pie(labels=material_counts_slow_fashion.index, values=material_counts_slow_fashion.values)
+    ])
+
+    fig6.update_layout(title='Top 10 Matériaux dans Mode Durable')
+
+    #countries
+    country_counts_fast_fashion = fast_fashion_data['Country'].explode().value_counts()[:20]
+    country_counts_slow_fashion = slow_fashion_data['Country'].explode().value_counts()[:20]
+    fig7 = go.Figure(data=[
+        go.Bar(x=country_counts_fast_fashion.index, y=country_counts_fast_fashion.values),
+    ])
+
+    fig7.update_layout(title='Top 20 Pays de Fabrication - Mode Rapide')
+    fig8 = go.Figure(data=[
+        go.Bar(x=country_counts_slow_fashion.index, y=country_counts_slow_fashion.values),
+    ])
+
+    fig8.update_layout(title='Pays de Fabrication - Mode Durable')
+
+    fig9 = px.box(fashion_data, x="Brand Type", y="Price")
+    fig9.update_layout(title='Comparaison des Prix')
+    norm_fashion_data = fashion_data.copy()
+
+    return fig1, min_val, max_val, marks, slider_value, fig2, fig3, fig4, fig5, fig6, fig7, fig8, fig9
 
 
-    
 
 
 #this thing just runs the app
