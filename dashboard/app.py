@@ -38,6 +38,12 @@ nb_fast_fashion = fast_fashion_data.shape[0]
 slow_fashion_data = fashion_data[fashion_data['Brand Type'] == 'Slow Fashion']
 nb_slow_fashion = slow_fashion_data.shape[0]
 
+#POLLUTION DATA
+pollution_data = pd.read_csv('https://raw.githubusercontent.com/sim-cell/DALAS/main/data/data_pollution.csv')
+pollution_data['Air Pollution'] = pd.to_numeric(pollution_data['Air Pollution'], errors='coerce')
+pollution_data['Water Pollution'] = pd.to_numeric(pollution_data['Water Pollution'], errors='coerce')
+pollution = pollution_data[['Country', 'Air Pollution', 'Water Pollution']]
+
 
 #APPRENTISSAGE
 apprentissage = pd.read_csv('https://raw.githubusercontent.com/sim-cell/DALAS/main/apprentissage/apprentissage_results.csv')
@@ -99,6 +105,7 @@ app.layout = html.Div(style = {'font-family':'Arial','background-color': '#D8BFD
             ]),
             html.Div(id='graph-container', style={'width': '48%', 'float': 'right', 'margin-right':'1%','border': '1px solid black', 'padding': '2px'}, children=[
                 html.H3("Graphe des valeurs d'indice au cours des années par pays"),
+                dcc.Graph(id='index-graph'),
                 html.Label("Choisir le pays :"),
                 dcc.Dropdown(
                     id='country-dropdown',
@@ -106,9 +113,18 @@ app.layout = html.Div(style = {'font-family':'Arial','background-color': '#D8BFD
                     value=fashion_data['Country'].explode().value_counts()[:10].index.tolist(),
                     multi=True
                 ),
-                dcc.Graph(id='index-graph')
             ]),
         ]),
+        html.Div(id='annees-container2', style={'width': '100%','height':'30%','overflow': 'auto'}, children=[
+            html.H3("Cartes de Pollution selon les Pays Choisis"),
+            html.Div(id='map-container2', style={'width': '48%','float': 'left','margin-left': '1%','border': '1px solid black', 'padding': '2px'}, children=[
+                dcc.Graph(id='map-graph_water'),
+            ]),
+            html.Div(id='map-container3', style={'width': '48%', 'float': 'right', 'margin-right':'1%','border': '1px solid black', 'padding': '2px'}, children=[
+                dcc.Graph(id='map-graph_air')
+            ]),
+        ]),
+
         html.Br()
     ]),
     html.Br(),
@@ -196,6 +212,8 @@ app.layout = html.Div(style = {'font-family':'Arial','background-color': '#D8BFD
      Output('overall-price-comparison', 'figure'),
      Output('overall-price-comparison-norm', 'figure'),
      Output('table-container', 'children'),
+     Output('map-graph_water', 'figure'),
+     Output('map-graph_air', 'figure'),
      ],
     [Input('year-slider', 'value'),
      Input('index-radio', 'value'),
@@ -301,7 +319,20 @@ def update_everything(selected_year, selected_index, slider_value, selected_coun
         data=filtered_df.to_dict('records'),
     )
 
-    return fig1, min_val, max_val, marks, slider_value, fig2, fig3, fig4, fig5, fig6, fig7, fig8, fig9, fig10,table
+    # air and water pollution too 
+    filtered_poll = pollution[pollution['Country'].isin(selected_countries)]
+
+    fig11 = px.choropleth(filtered_poll, locations='Country',
+                        locationmode='country names', color='Air Pollution',
+                        hover_name='Country', color_continuous_scale='Reds',
+                        title='Air Pollution by Country')
+    
+    fig12 = px.choropleth(filtered_poll, locations='Country',
+                        locationmode='country names', color='Water Pollution',
+                        hover_name='Country', color_continuous_scale='Reds',
+                        title='Water Pollution by Country')
+
+    return fig1, min_val, max_val, marks, slider_value, fig2, fig3, fig4, fig5, fig6, fig7, fig8, fig9, fig10,table, fig11, fig12
 
 
 
