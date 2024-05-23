@@ -39,6 +39,13 @@ slow_fashion_data = fashion_data[fashion_data['Brand Type'] == 'Slow Fashion']
 nb_slow_fashion = slow_fashion_data.shape[0]
 
 
+#APPRENTISSAGE
+apprentissage = pd.read_csv('https://raw.githubusercontent.com/sim-cell/DALAS/main/apprentissage/apprentissage_results.csv')
+apprentissage["Accuracy"] = pd.to_numeric(apprentissage["Accuracy"], errors='coerce')
+apprentissage["Precision"] = pd.to_numeric(apprentissage["Precision"], errors='coerce')
+apprentissage["Recall"] = pd.to_numeric(apprentissage["Recall"], errors='coerce')
+apprentissage['F1 Score'] = pd.to_numeric(apprentissage['F1 Score'], errors='coerce')
+apprentissage['AUC-ROC Score'] = pd.to_numeric(apprentissage['AUC-ROC Score'], errors='coerce')
 
 app.layout = html.Div(style = {'font-family':'Arial','background-color': '#D8BFD8'}, children=[
     html.Div(id="header",children=[
@@ -155,6 +162,17 @@ app.layout = html.Div(style = {'font-family':'Arial','background-color': '#D8BFD
         ]),  
     ]),
     html.Br(),
+    html.Div("Selectionner un modèle pour voir les résultats de l'apprentissage"),
+    dcc.Dropdown(
+        id='model-dropdown',
+        options=[
+            {'label': 'Random Forest', 'value': 'Random Forest'},
+            {'label': 'Logistic Regression', 'value': 'Logistic Regression'},
+            {'label': 'SVM', 'value': 'SVM'},
+        ],
+        value='Random Forest' 
+    ),
+    html.Div(id="table-container", style={'width': '100%','height':'30%'}),
     
        
  ])
@@ -177,15 +195,18 @@ app.layout = html.Div(style = {'font-family':'Arial','background-color': '#D8BFD
      Output('slow-fashion-countries-graph', 'figure'),
      Output('overall-price-comparison', 'figure'),
      Output('overall-price-comparison-norm', 'figure'),
+     Output('table-container', 'children'),
      ],
     [Input('year-slider', 'value'),
      Input('index-radio', 'value'),
      Input('index-slider', 'value'),
-     Input('country-dropdown', 'value')]
+     Input('country-dropdown', 'value'),
+     Input('model-dropdown', 'value'),
+     ]
 )
 
 
-def update_everything(selected_year, selected_index, slider_value, selected_countries):
+def update_everything(selected_year, selected_index, slider_value, selected_countries, selected_model):
     # map
     year_data = filtered_data[filtered_data['Year'] == selected_year]
 
@@ -272,8 +293,15 @@ def update_everything(selected_year, selected_index, slider_value, selected_coun
     fig10 = px.box(norm_fashion_data, x="Brand Type", y="Price normalized")
     fig10.update_layout(title='Comparaison des Prix Normalisés')
 
+    filtered_df = apprentissage[apprentissage['Model'] == selected_model]
 
-    return fig1, min_val, max_val, marks, slider_value, fig2, fig3, fig4, fig5, fig6, fig7, fig8, fig9, fig10
+    table = dash_table.DataTable(
+        id='table',
+        columns=[{"name": i, "id": i} for i in filtered_df.columns],
+        data=filtered_df.to_dict('records'),
+    )
+
+    return fig1, min_val, max_val, marks, slider_value, fig2, fig3, fig4, fig5, fig6, fig7, fig8, fig9, fig10,table
 
 
 
